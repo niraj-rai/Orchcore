@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>disable</Nullable>
+	</PropertyGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\Orchcore\Orchcore.csproj" />
+	</ItemGroup>
+	<ItemGroup>
+	  <None Remove="CodedOrchestrators\" />
+	</ItemGroup>
+	<ItemGroup>
+	  <Folder Include="CodedOrchestrators\" />
+	</ItemGroup>
+</Project>
